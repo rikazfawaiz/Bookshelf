@@ -40,6 +40,9 @@ buttonDownloadUnReadBook.addEventListener('click', () => {
 
 const searchBook = () => {
     const searchData = document.getElementById('searchBookTitle').value;
+
+    if (searchData == null || searchData == undefined) return;
+    
     const bookData = JSON.parse(localStorage.getItem(BOOK_KEY))
     const result = bookData.filter(book => book.title.toLowerCase().includes(searchData.toLowerCase()));
 

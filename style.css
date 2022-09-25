@@ -17,7 +17,7 @@ input, button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cornflowerblue;
+    background-color: darkorange;
     color: white;
 }
 
@@ -39,7 +39,7 @@ main {
 
 .input_section > h2 {
     text-align: center;
-    color: cornflowerblue;
+    color: darkorange;
 }
 
 .input_section > form > .input {
@@ -47,7 +47,7 @@ main {
 }
 
 .input_section > form > button {
-    background-color: cornflowerblue;
+    background-color: darkorange;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -70,7 +70,7 @@ main {
 
 
 .input_section > form > .input > label {
-    color: cornflowerblue;
+    color: darkorange;
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ main {
 }
 
 .input_section > form > .input_inline > label {
-    color: cornflowerblue;
+    color: darkorange;
     font-weight: bold;
     margin-right: 10px;
 }
@@ -97,7 +97,7 @@ main {
 }
 
 .search_section > h2 {
-    color: cornflowerblue;
+    color: darkorange;
 }
 
 .search_section > form {
@@ -119,7 +119,7 @@ main {
 }
 
 .search_section > form > button {
-    background-color: cornflowerblue;
+    background-color: darkorange;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -134,7 +134,7 @@ main {
 }
 
 .book_shelf > h2 {
-    color: cornflowerblue;
+    color: darkorange;
 }
 
 .book_shelf > .book_list {
@@ -189,7 +189,7 @@ main {
 
 .headerStatusBook {
     float: left;
-    color: cornflowerblue
+    color: darkorange
 }
 
 .downloadBook {
